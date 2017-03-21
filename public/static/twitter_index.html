@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-cookies.js"></script>
+    <script src="/js/controller.js"></script>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>WELCOME TO TWITTER</title>
+</head>
+<body ng-app="myApp" ng-controller="AppCtrl">
+	Create Account
+	<div>
+	Username: <input class="form-controler" ng-model="user.username"><br>
+	Email: <input class="form-controler" ng-model="user.email"><br>
+	Password: <input class="form-controler" ng-model="user.password"><br>
+	<button class="btn-primary" ng-click="createAccount()">Create new Account!</button>
+	</div>
+
+</body>
+
+</html>
+<div i = 'app'></div>
